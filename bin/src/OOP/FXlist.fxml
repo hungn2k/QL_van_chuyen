@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="597.0" prefWidth="1003.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="OOP.ListController">
+   <children>
+      <TableView fx:id="table" prefHeight="556.0" prefWidth="1003.0">
+         <columns>
+            <TableColumn fx:id="nguoiguiColumn" prefWidth="140.79998779296875" text="Shipper" />
+            <TableColumn fx:id="nguoinhanColumn" prefWidth="122.4000244140625" text="Customer" />
+            <TableColumn fx:id="diachiColumn" prefWidth="139.99996948242188" text="Address" />
+            <TableColumn fx:id="khoangcachColumn" prefWidth="124.800048828125" text="Distance" />
+            <TableColumn fx:id="cannangColumn" prefWidth="103.20001220703125" text="Weight" />
+            <TableColumn fx:id="ngayColumn" prefWidth="136.79998779296875" text="Day" />
+            <TableColumn fx:id="loaiColumn" prefWidth="102.39996337890625" text="Type" />
+            <TableColumn fx:id="chiphiColumn" prefWidth="127.2000732421875" text="Total" />
+         </columns>
+      </TableView>
+      <Label layoutX="550.0" layoutY="557.0" prefHeight="43.0" prefWidth="156.0" text="Company Turnover">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="thunhapLabel" layoutX="801.0" layoutY="557.0" prefHeight="43.0" prefWidth="197.0" textFill="#dc1c12">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label fx:id="thangnamLabel" layoutX="706.0" layoutY="557.0" prefHeight="43.0" prefWidth="91.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
